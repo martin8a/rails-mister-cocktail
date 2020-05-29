@@ -11,17 +11,26 @@
 .show-container {
     height: auto;
     background-color: white;
+    margin: auto;
     margin-top: 20px;
 }
 
 .show-container .show-image {
     height: 400px;
     border-right: solid;
+    background-color: white;
     border-color: #F4F4F4; 
 }
 
 .show-container .show-content {
     height: 400px;
-    border-right: solid;
-    border-color: #F4F4F4; 
+    background-color: white;
+    font-family: 'EB Garamond', serif;;
+}
+
+.show-suggested {
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
 }
