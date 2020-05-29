@@ -7,7 +7,24 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .icon {
-  font-size: 30px;;
+.navbar-lewagon .navbar-brand {
+  font-size: 32px;
+  color: grey;
 }
 
+.input-group > .form-control {
+  border-right-style: none;
+  border-color: grey;
+  opacity: 0.7;
+}
+
+.input-group > .input-group-append > .btn {
+  border-left-style: none;
+  border-color: grey;
+  opacity: 0.7;
+}
+.title-header {
+  justify-content: center;
+  font-family: $title-header;
+  font-size: 40px;
+}
