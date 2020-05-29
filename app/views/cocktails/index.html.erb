@@ -7,13 +7,17 @@
     <p> Scroll down to drink.</p>
   </div>
 </div>
+<div class="cards-container col-lg-10 col-md-10 col-12">
+    <% @cocktails.each do |cocktail|%>
+        <div class="card-product" id="cards-hover">
+            <img src="https://www.thespruceeats.com/thmb/VyFdz48oLo2zUsgpKBSl6bPjv4E=/1039x1039/smart/filters:no_upscale()/woo-woo-cocktail-recipe-759852-Hero-5b8c4ee546e0fb002508fa5b.jpg" />
+            <div class="card-product-infos">
+                <h2><%= cocktail.name.capitalize %></h2>
+                <p><strong>Created: </strong><%= cocktail.created_at %></p>
+            </div>
+        </div>
 
-<div class="card-product">
-  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-  <div class="card-product-infos">
-    <h2>Product name</h2>
-    <p>Product description with <strong>relevant info</strong> only.</p>
-  </div>
+    <% end %>
+    
 </div>
-
 
