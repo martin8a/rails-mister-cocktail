@@ -18,6 +18,7 @@
 .show-container .show-image {
     height: 400px;
     border-right: solid;
+    border-right-width: thick;
     background-color: white;
     border-color: #F4F4F4; 
 }
@@ -25,12 +26,32 @@
 .show-container .show-content {
     height: 400px;
     background-color: white;
-    font-family: 'EB Garamond', serif;;
+    font-family: 'EB Garamond', serif;
+    padding-top: 30px;
+    padding-left: 20px;
 }
 
 .show-suggested {
     height: 200px;
     background-color: white;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+.new-container {
+    height: 600px;
+}
+
+.new-container .new-form {
+    height: 600px;
+    background-color: white;
+    padding: 30px 30px;
+    justify-content: center;
+}
+.header-separator {
+    height: 70px;
+}
+
+.new-img {
+    
 }
